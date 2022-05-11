@@ -542,6 +542,20 @@ ol {
 	border-radius: 15px;
 }
 
+.ite-btn-hapus {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #C70000;
+	border: none;
+	float: right;
+	margin: 5px 10px 5px 10px;
+	border-radius: 15px;
+}
+
 .sites-btn{
 	color: #ffffff;
 	font-weight: 800;
@@ -2772,6 +2786,16 @@ color:#68727d;
 	background: #000000;
 	opacity: 0.1;
 	content: "";
+}
+
+.inputperubahankuantitas {
+	width: 60px;
+	float: right;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	
 }
 
 /*---------------------
