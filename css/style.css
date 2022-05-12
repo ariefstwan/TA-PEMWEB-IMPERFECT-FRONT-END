@@ -2157,6 +2157,78 @@ color:#68727d;
 	margin-right: 6px;
 }
 
+/* PRODUCT CHECKOUT QUANTITY START */
+
+.qty-container {
+	display: flex;
+	align-items: center;
+	user-select: none;
+	float: right;
+	padding: 12px;
+  }
+
+.minus,
+.plus {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #DDD;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  margin: 0 10px;
+  background: #fff;
+  border: 1px solid #DDD;
+  border-radius: 15px;
+  font-size: 12px;
+  color: #000;
+  font-weight: bold;
+}
+
+.minus span {
+  display: flex;
+  width: 10px;
+  height: 2px;
+  background: #000;
+}
+
+.plus span:nth-child(1) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 10px;
+  height: 2px;
+  background: #000;
+}
+
+.plus span:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 2px;
+  height: 10px;
+  background: #000;
+}
+  
+
+/* PRODUCT CHECKOUT QUANTITY END */
+
+
 .pro-qty {
 	width: 140px;
 	height: 50px;
@@ -2786,16 +2858,6 @@ color:#68727d;
 	background: #000000;
 	opacity: 0.1;
 	content: "";
-}
-
-.inputperubahankuantitas {
-	width: 60px;
-	float: right;
-	margin-top: 10px;
-	padding-top: 5px;
-	padding-left: 20px;
-	padding-bottom: 5px;
-	
 }
 
 /*---------------------
@@ -4398,4 +4460,7 @@ min-width: fit-content;
 align-items: mid;
 }
 
+.margin-sendreview {
+	margin-bottom: 50px;
+}
 /*Review form end */
