@@ -16,7 +16,7 @@ imgDiv.addEventListener('mouseleave', function(){
 });
 
 file.addEventListener('change', function(){
-    //this refers to file
+
     const choosedFile = this.files[0];
 
     if (choosedFile) {
